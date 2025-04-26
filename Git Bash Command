@@ -1,0 +1,7 @@
+cd /c/Terraform/Environment
+git git clone https://github.com/raisantoshramjit/Azure-Terraform-LDS.git
+cd Azure-Terraform-LDS
+cp /c/Terraform/Environment/main.tf .
+git add main.tf
+git commit -m "Added main.tf for Azure Terraform LDS"
+git push origin master
