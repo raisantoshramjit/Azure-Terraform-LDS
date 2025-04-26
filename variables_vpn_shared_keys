@@ -1,0 +1,5 @@
+variable "vpn_shared_keys" {
+  description = "Shared key for VPN connection"
+  type        = string
+  sensitive   = true
+}
